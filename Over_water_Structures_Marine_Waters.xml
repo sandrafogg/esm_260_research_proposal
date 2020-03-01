@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?><metadata>
+    <idinfo>
+        <citation>
+            <citeinfo>
+                <title>Over water Structures</title>
+                <onlink>https://fortress.wa.gov/dnr/arcgisext/weba_ext_prod1/rest/services/MSP/MSP_Infrastructure/MapServer/2</onlink>
+                <onlink>https://fortress.wa.gov/dnr/adminsa/gisdata/datadownload/wa_overwater_marine.gdb.zip</onlink>
+                <onlink>https://fortress.wa.gov/dnr/adminsa/gisdata/metadata/OWS_Marine_metadata.htm</onlink>
+            </citeinfo>
+        </citation>
+        <descript>
+            <abstract>The Overwater Structures in Marine Waters of Washington State is made up of thousands of digitized overwater structures such as docks, bridges, floats, structural support fill, and other structures such as floating homes. Structures were digitized from three (3) foot/one (1) meter resolution color orthophotos taken between 2002 to 2006 by either the Washington State Department of Natural Resources (Washington DNR) or the United States Department of Agriculture National Agriculture Imagery Program (NAIP). The data layer is statewide and includes all marine areas classified as definitely or probably navigable by the Revised Code of Washington (RCW 90.56.010(15)), as well as a limited set of areas classified as possibly navigable. The datatable has been standardized so that overwater structures can be looked up based on structure type, structure size, waterbody name, township, county, or waterbody navigability. NOTE: While Washington DNR is willing to share the data with other entities, there are currently no plans to QA/QC the data or maintain it.To map and quantify the extent of overwater structures on and adjacent to state-owned aquatic lands as part of the take analysis for a proposed State-owned Aquatic Lands Habitat Conservation Plan (HCP).</abstract>
+            <purpose>Overwater Structures in Marine Waters of Washington State</purpose>
+        </descript>
+        <keywords>
+            <theme>
+                <themekt>None</themekt>
+                <themekey>Structures</themekey>
+                <themekey>Aquatics</themekey>
+                <themekey>WA</themekey>
+                <themekey>Washington</themekey>
+                <themekey>DNR</themekey>
+                <themekey>Over water</themekey>
+                <themekey>Overwater Structures</themekey>
+                <themekey>docks</themekey>
+                <themekey>marine</themekey>
+                <themekey>buildings</themekey>
+                <themekey>Shoreline Modification</themekey>
+                <themekey>bridges</themekey>
+                <themekey>floats</themekey>
+                <themekey>marinas</themekey>
+                <themekey>HCP Habitat Conservation Plan</themekey>
+                <themekey>salt water</themekey>
+                <themekey>OVWS</themekey>
+                <themekey>Hydrogr</themekey>
+            </theme>
+        </keywords>
+        <accconst>None</accconst>
+        <useconst>Freely available from the Washington DNR and contingent upon acceptance of all the terms and conditions contained in the DNR agency license agreement.</useconst>
+        <datacred>Washington State Department of Natural Resources, Aquatics Division</datacred>
+    </idinfo>
+    <metainfo>
+        <metd>20170314</metd>
+        <metc>
+            <cntinfo>
+                <!--no contact person or organization name available-->
+            </cntinfo>
+        </metc>
+        <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+        <metstdv>FGDC-STD-001-1998</metstdv>
+        <mettc>local time</mettc>
+    </metainfo>
+</metadata>

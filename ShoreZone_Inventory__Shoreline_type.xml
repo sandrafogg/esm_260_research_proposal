@@ -1,0 +1,2435 @@
+<?xml version="1.0" encoding="UTF-8"?><metadata>
+    <idinfo>
+        <citation>
+            <citeinfo>
+                <origin/>
+                <pubdate>20010101</pubdate>
+                <title>ShoreZone Inventory - Shoreline type</title>
+                <geoform>vector digital data</geoform>
+                <onlink>https://gis.dnr.wa.gov/site3/rest/services/Public_Aquatics/WADNR_PUBLIC_AQR_NS_HBTT/MapServer/51</onlink>
+                <onlink>https://fortress.wa.gov/dnr/adminsa/gisdata/datadownload/state_DNR_ShoreZone.zip</onlink>
+                <onlink>https://fortress.wa.gov/dnr/adminsa/gisdata/metadata/dnr_shorezone_metadata.htm</onlink>
+            </citeinfo>
+        </citation>
+        <descript>
+            <abstract>Classified ShoreZone shoreline segments into 16 shoreline types based on substrate type and elevation. The ShoreZone Inventory characterizes several physical parameters within shoreline segments.  The majority of the shoreline is described by line data. Polygon features exist in some areas with extensive shallows. The ShoreZone Inventory includes all saltwater shorelines statewide. It was completed between 1994 and 2000 using aerial videography collected at low tide.</abstract>
+            <purpose>This line layer shows shoreline type from the larger Washington State ShoreZone Inventory. The ShoreZone Inventory includes all saltwater shorelines statewide based on low-tide aerial video collected 1994-2000.</purpose>
+            <supplinf>Further information on this dataset is available in The Washington State ShoreZone Inventory User's Manual and The Washington State ShoreZone Inventory Data Dictionary. The data dictionary in particular contains more detailed descriptions of bio-bands. Both of these documents are available online at http://www.dnr.wa.gov</supplinf>
+        </descript>
+        <timeperd>
+            <timeinfo>
+                <rngdates>
+                    <begdate>19940101</begdate>
+                    <enddate>20000101</enddate>
+                </rngdates>
+            </timeinfo>
+            <current>ground condition</current>
+        </timeperd>
+        <status>
+            <progress>Complete</progress>
+            <update>None planned</update>
+        </status>
+        <spdom>
+            <bounding>
+                <westbc>-124.835106</westbc>
+                <eastbc>-122.092607</eastbc>
+                <northbc>49.018354</northbc>
+                <southbc>46.245311</southbc>
+            </bounding>
+        </spdom>
+        <keywords>
+            <theme>
+                <themekt>None</themekt>
+                <themekey>nearshore habitat</themekey>
+                <themekey>aquatic vegetation</themekey>
+                <themekey>shoreline modification</themekey>
+                <themekey>marine shoreline</themekey>
+                <themekey>estuary</themekey>
+                <themekey>seagrass</themekey>
+                <themekey>eelgrass</themekey>
+                <themekey>surfgrass</themekey>
+                <themekey>kelp</themekey>
+            </theme>
+            <theme>
+                <themekt>ISO 19115 Topic Categories</themekt>
+                <themekey>oceans</themekey>
+            </theme>
+            <place>
+                <placekt>None</placekt>
+                <placekey>Hood Canal</placekey>
+                <placekey>Puget Sound</placekey>
+                <placekey>Strait of Georgia</placekey>
+                <placekey>Strait of Juan de Fuca</placekey>
+                <placekey>Washington State</placekey>
+                <placekey>San Juan Islands</placekey>
+            </place>
+        </keywords>
+        <accconst>None</accconst>
+        <useconst>The Washington State Department of Natural Resources (DNR) provides these geographic data "as is." DNR makes no guarantee or warranty concerning the accuracy of information contained in the geographic data. DNR further makes no warranties, either expressed or implied as to any other matter whatsoever, including, without limitation, the condition of the product, or its fitness for any particular purpose. The burden for determining fitness for use lies entirely with the user. Although these data have been processed successfully on computers of DNR, no warranty, expressed or implied, is made by DNR regarding the use of these data on any other system, nor does the fact of distribution constitute or imply any such warranty.In no event shall the DNR have any liability whatsoever for payment of any consequential, incidental, indirect, special, or tort damages of any kind, including, but not limited to, any loss of profits arising out of use of or reliance on the geographic data or arising out of the delivery, installation, operation, or support by DNR.</useconst>
+        <ptcontac>
+            <cntinfo>
+                <cntorgp>
+                    <cntorg>Washington State Dept of Natural Resources / Aquatic Resources Division</cntorg>
+                </cntorgp>
+                <cntaddr>
+                    <addrtype>mailing and physical</addrtype>
+                    <address>1111 Washington St SE, 1st Floor</address>
+                    <address>P.O. Box 47027</address>
+                    <city>Olympia</city>
+                    <state>WA</state>
+                    <postal>98504-7027</postal>
+                    <country>US</country>
+                </cntaddr>
+                <cntvoice>360-902-1100</cntvoice>
+                <cntfax>360-902-1786</cntfax>
+                <cntemail>nearshore@dnr.wa.gov</cntemail>
+            </cntinfo>
+        </ptcontac>
+        <datacred>Nearshore Habitat Program, WA Department of Natural Resources</datacred>
+        <native>Version 6.2 (Build 9200) ; Esri ArcGIS 10.4.1.5686</native>
+    </idinfo>
+    <dataqual>
+        <attracc>
+            <attraccr>The attributes are based on interpreted videotape, photos and direct observations of a geomorphologist and a marine ecologist all recorded from a helicopter traveling at approximately 60 knots and 300 feet (approx. 90 meters) above the ground. The inventory is a valuable regional data set because it surveyed thousands of miles using consistent methods during a relatively short time frame. However, it cannot replace higher resolution techniques or site-specific surveys. The accuracy of ShoreZone attributes has not been quantified.</attraccr>
+            <qattracc>
+                <attracce>No formal accuracy assessment was conducted.</attracce>
+            </qattracc>
+        </attracc>
+        <posacc>
+            <horizpa>
+                <horizpar>Spatial data is based on the WA State Dept of Natural Resources digital shoreline (water level line) developed from sources at a scale of 1:24,000.</horizpar>
+                <qhorizpa>
+                    <horizpav>+/- 12 meters (40 feet)</horizpav>
+                    <horizpae>Accuracy estimated from source data.</horizpae>
+                </qhorizpa>
+            </horizpa>
+        </posacc>
+        <lineage>
+            <srcinfo>
+                <typesrc>None</typesrc>
+                <srctime>
+                    <timeinfo>
+                        <rngdates>
+                            <begdate>19940101</begdate>
+                            <enddate>20000101</enddate>
+                        </rngdates>
+                    </timeinfo>
+                    <srccurr>ground condition</srccurr>
+                </srctime>
+                <srccontr>Video imagery of the shoreline was recorded, along with locational information (GPS) during helicopter flights during low tides.</srccontr>
+            </srcinfo>
+            <srcinfo>
+                <typesrc>None</typesrc>
+                <srctime>
+                    <timeinfo>
+                        <rngdates>
+                            <begdate>19940101</begdate>
+                            <enddate>20000101</enddate>
+                        </rngdates>
+                    </timeinfo>
+                    <srccurr>ground condition</srccurr>
+                </srctime>
+                <srccontr>Recorded survey observations of geomorphologist and marine ecologist on the physical and biological features along the shoreline during helicopter flight during low tides.</srccontr>
+            </srcinfo>
+            <srcinfo>
+                <srcscale>24000</srcscale>
+                <typesrc>hardDisk</typesrc>
+                <srctime>
+                    <timeinfo>
+                        <sngdate>
+                            <caldate>20010101</caldate>
+                        </sngdate>
+                    </timeinfo>
+                    <srccurr>publication date</srccurr>
+                </srctime>
+                <srccontr>The WA State Dept of Natural Resources digital shoreline (water level line) provided the base layer for the inventory.</srccontr>
+            </srcinfo>
+            <srcinfo>
+                <srcscale>24000</srcscale>
+                <typesrc>hardcopyPaper</typesrc>
+                <srccontr>Dept of Natural Resources orthophotos were used in conjunction with survey information and helicopter videography to delineate zones and assign attributes.</srccontr>
+            </srcinfo>
+            <procstep>
+                <procdesc>Main information source is low-tide, aerial imagery collected during minus tides (below MLLW) in June of the year. Survey data was collected by a marine ecologist, coastal geomorphologist, and a navigator who fly in a helicopter at flight speeds of 60 knots and about 300 feet in altitude. A geomorphologist interpreted the survey data: he defined delineated homogenous units on the DNR orthophotos, and described the units and components in tabular data. A marine ecologist then added tabular data on biological resources. Spatial data is based on the WA State Dept of Natural Resources digital shoreline (water level line).</procdesc>
+                <procdate>20000630</procdate>
+            </procstep>
+        </lineage>
+    </dataqual>
+    <spdoinfo>
+        <direct>Vector</direct>
+        <ptvctinf>
+            <sdtsterm>
+                <sdtstype>String</sdtstype>
+                <ptvctcnt>7365</ptvctcnt>
+            </sdtsterm>
+        </ptvctinf>
+    </spdoinfo>
+    <eainfo>
+        <detailed>
+            <enttyp>
+                <enttypl>shorline</enttypl>
+                <enttypd>Shoreline type</enttypd>
+                <enttypds>Washington Department of Natural Resources</enttypds>
+            </enttyp>
+            <attr>
+                <attrlabl>OBJECTID</attrlabl>
+                <attrdef>Internal feature number.</attrdef>
+                <attrdefs>Esri</attrdefs>
+                <attrdomv>
+                    					
+                    <udom>Sequential unique whole numbers that are automatically generated.</udom>
+                    				
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>Shape</attrlabl>
+                <attrdef>Feature geometry.</attrdef>
+                <attrdefs>ESRI</attrdefs>
+                <attrdomv>
+                    					
+                    <udom>Coordinates defining the features.</udom>
+                    				
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>LENGTH</attrlabl>
+                <attrdef>Length of feature in US Survey feet</attrdef>
+                <attrdefs>Washington Department of Natural Resources</attrdefs>
+                <attrdomv>
+                    					
+                    <udom>Length values</udom>
+                    				
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>UNIT_ID</attrlabl>
+                <attrdef>Unique assigned integer</attrdef>
+                <attrdefs>Washington Department of Natural Resources</attrdefs>
+                <attrdomv>
+                    					
+                    <udom>Assigned integer</udom>
+                    				
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>BC_CLASS</attrlabl>
+                <attrdef>Numeric code for the British Columbia 'coastal class' or 'shoreine type'</attrdef>
+                <attrdefs>Washington Department of Natural Resources</attrdefs>
+                <attrdomv>
+                    					
+                    <edom>
+                        						
+                        <edomv>0</edomv>
+                        						
+                        <edomvd>Undefined</edomvd>
+                        						
+                        <edomvds>Washington Department of Natural Resources</edomvds>
+                        					
+                    </edom>
+                    				
+                </attrdomv>
+                <attrdomv>
+                    					
+                    <edom>
+                        						
+                        <edomv>1</edomv>
+                        						
+                        <edomvd>Rock ramp, wide</edomvd>
+                        						
+                        <edomvds>Washington Department of Natural Resources</edomvds>
+                        					
+                    </edom>
+                    				
+                </attrdomv>
+                <attrdomv>
+                    					
+                    <edom>
+                        						
+                        <edomv>2</edomv>
+                        						
+                        <edomvd>Rock platform, wide</edomvd>
+                        						
+                        <edomvds>Washington Department of Natural Resources</edomvds>
+                        					
+                    </edom>
+                    				
+                </attrdomv>
+                <attrdomv>
+                    					
+                    <edom>
+                        						
+                        <edomv>3</edomv>
+                        						
+                        <edomvd>Rock cliff</edomvd>
+                        						
+                        <edomvds>Washington Department of Natural Resources</edomvds>
+                        					
+                    </edom>
+                    				
+                </attrdomv>
+                <attrdomv>
+                    					
+                    <edom>
+                        						
+                        <edomv>4</edomv>
+                        						
+                        <edomvd>Rock ramp, narrow</edomvd>
+                        						
+                        <edomvds>Washington Department of Natural Resources</edomvds>
+                        					
+                    </edom>
+                    				
+                </attrdomv>
+                <attrdomv>
+                    					
+                    <edom>
+                        						
+                        <edomv>5</edomv>
+                        						
+                        <edomvd>Ramp with gravel beach, wide</edomvd>
+                        						
+                        <edomvds>Washington Department of Natural Resources</edomvds>
+                        					
+                    </edom>
+                    				
+                </attrdomv>
+                <attrdomv>
+                    					
+                    <edom>
+                        						
+                        <edomv>6</edomv>
+                        						
+                        <edomvd>Platform with gravel beach, wide</edomvd>
+                        						
+                        <edomvds>Washington Department of Natural Resources</edomvds>
+                        					
+                    </edom>
+                    				
+                </attrdomv>
+                <attrdomv>
+                    					
+                    <edom>
+                        						
+                        <edomv>7</edomv>
+                        						
+                        <edomvd>Platform with gravel beach, wide</edomvd>
+                        						
+                        <edomvds>Washington Department of Natural Resources</edomvds>
+                        					
+                    </edom>
+                    				
+                </attrdomv>
+                <attrdomv>
+                    					
+                    <edom>
+                        						
+                        <edomv>8</edomv>
+                        						
+                        <edomvd>Cliff with gravel beach</edomvd>
+                        						
+                        <edomvds>Washington Department of Natural Resources</edomvds>
+                        					
+                    </edom>
+                    				
+                </attrdomv>
+                <attrdomv>
+                    					
+                    <edom>
+                        						
+                        <edomv>9</edomv>
+                        						
+                        <edomvd>Ramp with gravel beach</edomvd>
+                        						
+                        <edomvds>Washington Department of Natural Resources</edomvds>
+                        					
+                    </edom>
+                    				
+                </attrdomv>
+                <attrdomv>
+                    					
+                    <edom>
+                        						
+                        <edomv>10</edomv>
+                        						
+                        <edomvd>Platform with gravel beach</edomvd>
+                        						
+                        <edomvds>Washington Department of Natural Resources</edomvds>
+                        					
+                    </edom>
+                    				
+                </attrdomv>
+                <attrdomv>
+                    					
+                    <edom>
+                        						
+                        <edomv>11</edomv>
+                        						
+                        <edomvd>Ramp with gravel and sand beach, wide</edomvd>
+                        						
+                        <edomvds>Washington Department of Natural Resources</edomvds>
+                        					
+                    </edom>
+                    				
+                </attrdomv>
+                <attrdomv>
+                    					
+                    <edom>
+                        						
+                        <edomv>12</edomv>
+                        						
+                        <edomvd>Platform with gravel and sand beach, wide</edomvd>
+                        						
+                        <edomvds>Washington Department of Natural Resources</edomvds>
+                        					
+                    </edom>
+                    				
+                </attrdomv>
+                <attrdomv>
+                    					
+                    <edom>
+                        						
+                        <edomv>13</edomv>
+                        						
+                        <edomvd>Cliff with gravel and sand beach</edomvd>
+                        						
+                        <edomvds>Washington Department of Natural Resources</edomvds>
+                        					
+                    </edom>
+                    				
+                </attrdomv>
+                <attrdomv>
+                    					
+                    <edom>
+                        						
+                        <edomv>14</edomv>
+                        						
+                        <edomvd>Ramp with gravel and sand beach</edomvd>
+                        						
+                        <edomvds>Washington Department of Natural Resources</edomvds>
+                        					
+                    </edom>
+                    				
+                </attrdomv>
+                <attrdomv>
+                    					
+                    <edom>
+                        						
+                        <edomv>15</edomv>
+                        						
+                        <edomvd>Platform with gravel and sand beach</edomvd>
+                        						
+                        <edomvds>Washington Department of Natural Resources</edomvds>
+                        					
+                    </edom>
+                    				
+                </attrdomv>
+                <attrdomv>
+                    					
+                    <edom>
+                        						
+                        <edomv>16</edomv>
+                        						
+                        <edomvd>Ramp with sand beach, wide</edomvd>
+                        						
+                        <edomvds>Washington Department of Natural Resources</edomvds>
+                        					
+                    </edom>
+                    				
+                </attrdomv>
+                <attrdomv>
+                    					
+                    <edom>
+                        						
+                        <edomv>17</edomv>
+                        						
+                        <edomvd>Platform with sand beach, wide</edomvd>
+                        						
+                        <edomvds>Washington Department of Natural Resources</edomvds>
+                        					
+                    </edom>
+                    				
+                </attrdomv>
+                <attrdomv>
+                    					
+                    <edom>
+                        						
+                        <edomv>18</edomv>
+                        						
+                        <edomvd>Cliff with sand beach</edomvd>
+                        						
+                        <edomvds>Washington Department of Natural Resources</edomvds>
+                        					
+                    </edom>
+                    				
+                </attrdomv>
+                <attrdomv>
+                    					
+                    <edom>
+                        						
+                        <edomv>19</edomv>
+                        						
+                        <edomvd>Ramp with sand beach, narrow</edomvd>
+                        						
+                        <edomvds>Washington Department of Natural Resources</edomvds>
+                        					
+                    </edom>
+                    				
+                </attrdomv>
+                <attrdomv>
+                    					
+                    <edom>
+                        						
+                        <edomv>20</edomv>
+                        						
+                        <edomvd>Platform with sand beach, narrow</edomvd>
+                        						
+                        <edomvds>Washington Department of Natural Resources</edomvds>
+                        					
+                    </edom>
+                    				
+                </attrdomv>
+                <attrdomv>
+                    					
+                    <edom>
+                        						
+                        <edomv>21</edomv>
+                        						
+                        <edomvd>Gravel flat, wide</edomvd>
+                        						
+                        <edomvds>Washington Department of Natural Resources</edomvds>
+                        					
+                    </edom>
+                    				
+                </attrdomv>
+                <attrdomv>
+                    					
+                    <edom>
+                        						
+                        <edomv>22</edomv>
+                        						
+                        <edomvd>Gravel beach, narrow</edomvd>
+                        						
+                        <edomvds>Washington Department of Natural Resources</edomvds>
+                        					
+                    </edom>
+                    				
+                </attrdomv>
+                <attrdomv>
+                    					
+                    <edom>
+                        						
+                        <edomv>23</edomv>
+                        						
+                        <edomvd>Gravel flat or fan</edomvd>
+                        						
+                        <edomvds>Washington Department of Natural Resources</edomvds>
+                        					
+                    </edom>
+                    				
+                </attrdomv>
+                <attrdomv>
+                    					
+                    <edom>
+                        						
+                        <edomv>24</edomv>
+                        						
+                        <edomvd>Sand and gravel flat or fan</edomvd>
+                        						
+                        <edomvds>Washington Department of Natural Resources</edomvds>
+                        					
+                    </edom>
+                    				
+                </attrdomv>
+                <attrdomv>
+                    					
+                    <edom>
+                        						
+                        <edomv>25</edomv>
+                        						
+                        <edomvd>Sand and gravel beach, narrow</edomvd>
+                        						
+                        <edomvds>Washington Department of Natural Resources</edomvds>
+                        					
+                    </edom>
+                    				
+                </attrdomv>
+                <attrdomv>
+                    					
+                    <edom>
+                        						
+                        <edomv>26</edomv>
+                        						
+                        <edomvd>Sand and gravel flat or fan</edomvd>
+                        						
+                        <edomvds>Washington Department of Natural Resources</edomvds>
+                        					
+                    </edom>
+                    				
+                </attrdomv>
+                <attrdomv>
+                    					
+                    <edom>
+                        						
+                        <edomv>27</edomv>
+                        						
+                        <edomvd>Sand beach</edomvd>
+                        						
+                        <edomvds>Washington Department of Natural Resources</edomvds>
+                        					
+                    </edom>
+                    				
+                </attrdomv>
+                <attrdomv>
+                    					
+                    <edom>
+                        						
+                        <edomv>28</edomv>
+                        						
+                        <edomvd>Sand flat</edomvd>
+                        						
+                        <edomvds>Washington Department of Natural Resources</edomvds>
+                        					
+                    </edom>
+                    				
+                </attrdomv>
+                <attrdomv>
+                    					
+                    <edom>
+                        						
+                        <edomv>29</edomv>
+                        						
+                        <edomvd>Mud flat</edomvd>
+                        						
+                        <edomvds>Washington Department of Natural Resources</edomvds>
+                        					
+                    </edom>
+                    				
+                </attrdomv>
+                <attrdomv>
+                    					
+                    <edom>
+                        						
+                        <edomv>30</edomv>
+                        						
+                        <edomvd>Sand beach</edomvd>
+                        						
+                        <edomvds>Washington Department of Natural Resources</edomvds>
+                        					
+                    </edom>
+                    				
+                </attrdomv>
+                <attrdomv>
+                    					
+                    <edom>
+                        						
+                        <edomv>31</edomv>
+                        						
+                        <edomvd>Organics/fines</edomvd>
+                        						
+                        <edomvds>Washington Department of Natural Resources</edomvds>
+                        					
+                    </edom>
+                    				
+                </attrdomv>
+                <attrdomv>
+                    					
+                    <edom>
+                        						
+                        <edomv>32</edomv>
+                        						
+                        <edomvd>Man-made, permeable</edomvd>
+                        						
+                        <edomvds>Washington Department of Natural Resources</edomvds>
+                        					
+                    </edom>
+                    				
+                </attrdomv>
+                <attrdomv>
+                    					
+                    <edom>
+                        						
+                        <edomv>33</edomv>
+                        						
+                        <edomvd>Man-made, impermeable</edomvd>
+                        						
+                        <edomvds>Washington Department of Natural Resources</edomvds>
+                        					
+                    </edom>
+                    				
+                </attrdomv>
+                <attrdomv>
+                    					
+                    <edom>
+                        						
+                        <edomv>34</edomv>
+                        						
+                        <edomvd>Channel</edomvd>
+                        						
+                        <edomvds>Washington Department of Natural Resources</edomvds>
+                        					
+                    </edom>
+                    				
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>BC_NAME</attrlabl>
+                <attrdef>Text descriptions of British Columbia 'coastal class' or 'shoreline type'</attrdef>
+                <attrdefs>Washington Department of Natural Resources</attrdefs>
+                <attrdomv>
+                    					
+                    <udom>Text descriptions</udom>
+                    				
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>REP_CODE</attrlabl>
+                <attrdef>Numeric code for shoreline type based on a classification of 'representative types' that is a simplification of the BC Shoreline Classification (attribute BC_CLASS).</attrdef>
+                <attrdefs>Washington Department of Natural Resources</attrdefs>
+                <attrdomv>
+                    					
+                    <edom>
+                        						
+                        <edomv>2</edomv>
+                        						
+                        <edomvd>Rock platform</edomvd>
+                        						
+                        <edomvds>Washington Department of Natural Resources</edomvds>
+                        					
+                    </edom>
+                    				
+                </attrdomv>
+                <attrdomv>
+                    					
+                    <edom>
+                        						
+                        <edomv>3</edomv>
+                        						
+                        <edomvd>Rock cliff</edomvd>
+                        						
+                        <edomvds>Washington Department of Natural Resources</edomvds>
+                        					
+                    </edom>
+                    				
+                </attrdomv>
+                <attrdomv>
+                    					
+                    <edom>
+                        						
+                        <edomv>4</edomv>
+                        						
+                        <edomvd>Rock with gravel beach</edomvd>
+                        						
+                        <edomvds>Washington Department of Natural Resources</edomvds>
+                        					
+                    </edom>
+                    				
+                </attrdomv>
+                <attrdomv>
+                    					
+                    <edom>
+                        						
+                        <edomv>5</edomv>
+                        						
+                        <edomvd>Rock with sand and gravel beach</edomvd>
+                        						
+                        <edomvds>Washington Department of Natural Resources</edomvds>
+                        					
+                    </edom>
+                    				
+                </attrdomv>
+                <attrdomv>
+                    					
+                    <edom>
+                        						
+                        <edomv>6</edomv>
+                        						
+                        <edomvd>Rock with sand beach</edomvd>
+                        						
+                        <edomvds>Washington Department of Natural Resources</edomvds>
+                        					
+                    </edom>
+                    				
+                </attrdomv>
+                <attrdomv>
+                    					
+                    <edom>
+                        						
+                        <edomv>7</edomv>
+                        						
+                        <edomvd>Gravel beadh</edomvd>
+                        						
+                        <edomvds>Washington Department of Natural Resources</edomvds>
+                        					
+                    </edom>
+                    				
+                </attrdomv>
+                <attrdomv>
+                    					
+                    <edom>
+                        						
+                        <edomv>8</edomv>
+                        						
+                        <edomvd>Sand and gravel beach</edomvd>
+                        						
+                        <edomvds>Washington Department of Natural Resources</edomvds>
+                        					
+                    </edom>
+                    				
+                </attrdomv>
+                <attrdomv>
+                    					
+                    <edom>
+                        						
+                        <edomv>9</edomv>
+                        						
+                        <edomvd>Sand beach</edomvd>
+                        						
+                        <edomvds>Washington Department of Natural Resources</edomvds>
+                        					
+                    </edom>
+                    				
+                </attrdomv>
+                <attrdomv>
+                    					
+                    <edom>
+                        						
+                        <edomv>10</edomv>
+                        						
+                        <edomvd>Sand flat</edomvd>
+                        						
+                        <edomvds>Washington Department of Natural Resources</edomvds>
+                        					
+                    </edom>
+                    				
+                </attrdomv>
+                <attrdomv>
+                    					
+                    <edom>
+                        						
+                        <edomv>11</edomv>
+                        						
+                        <edomvd>Mud flat</edomvd>
+                        						
+                        <edomvds>Washington Department of Natural Resources</edomvds>
+                        					
+                    </edom>
+                    				
+                </attrdomv>
+                <attrdomv>
+                    					
+                    <edom>
+                        						
+                        <edomv>12</edomv>
+                        						
+                        <edomvd>Estuary wetland</edomvd>
+                        					
+                    </edom>
+                    				
+                </attrdomv>
+                <attrdomv>
+                    					
+                    <edom>
+                        						
+                        <edomv>13</edomv>
+                        						
+                        <edomvd>Man-made</edomvd>
+                        					
+                    </edom>
+                    				
+                </attrdomv>
+                <attrdomv>
+                    					
+                    <edom>
+                        						
+                        <edomv>14</edomv>
+                        						
+                        <edomvd>Sand and gravel flat</edomvd>
+                        					
+                    </edom>
+                    				
+                </attrdomv>
+                <attrdomv>
+                    					
+                    <edom>
+                        						
+                        <edomv>15</edomv>
+                        						
+                        <edomvd>Gravel flat</edomvd>
+                        					
+                    </edom>
+                    				
+                </attrdomv>
+                <attrdomv>
+                    					
+                    <edom>
+                        						
+                        <edomv>16</edomv>
+                        						
+                        <edomvd>Channel</edomvd>
+                        						
+                        <edomvds>Washington Department of Natural Resources</edomvds>
+                        					
+                    </edom>
+                    				
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>REP_NAME</attrlabl>
+                <attrdef>Text descriptions of shoreline type based on a classification of 'representative types' that is a simplification of the BC Shoreline Classification (attribute BC_CLASS).</attrdef>
+                <attrdefs>Washington Department of Natural Resources</attrdefs>
+                <attrdomv>
+                    					
+                    <udom>Text descriptions</udom>
+                    				
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>DETH_CLASS</attrlabl>
+                <attrdef>Numeric code for shoreline type according to A Marine and Estuarine Classification System for Washington State (Dethier 1990)</attrdef>
+                <attrdefs>Washington Department of Natural Resources</attrdefs>
+                <attrdomv>
+                    					
+                    <edom>
+                        						
+                        <edomv>1</edomv>
+                        						
+                        <edomvd>Marine, intertidal, bedrock, exposed, eulittoral</edomvd>
+                        						
+                        <edomvds>Washington Department of Natural Resources</edomvds>
+                        					
+                    </edom>
+                    				
+                </attrdomv>
+                <attrdomv>
+                    					
+                    <edom>
+                        						
+                        <edomv>2</edomv>
+                        						
+                        <edomvd>Marine, intertidal, bedrock, partially exposed, eulittoral</edomvd>
+                        						
+                        <edomvds>Washington Department of Natural Resources</edomvds>
+                        					
+                    </edom>
+                    				
+                </attrdomv>
+                <attrdomv>
+                    					
+                    <edom>
+                        						
+                        <edomv>3</edomv>
+                        						
+                        <edomvd>Marine, intertidal, bedrock, semi-protected, eulittoral</edomvd>
+                        						
+                        <edomvds>Washington Department of Natural Resources</edomvds>
+                        					
+                    </edom>
+                    				
+                </attrdomv>
+                <attrdomv>
+                    					
+                    <edom>
+                        						
+                        <edomv>4</edomv>
+                        						
+                        <edomvd>Marine, intertidal, bedrock, protected, eulittoral</edomvd>
+                        						
+                        <edomvds>Washington Department of Natural Resources</edomvds>
+                        					
+                    </edom>
+                    				
+                </attrdomv>
+                <attrdomv>
+                    					
+                    <edom>
+                        						
+                        <edomv>5</edomv>
+                        						
+                        <edomvd>Marine, intertidal, boulder, exposed, eulittoral</edomvd>
+                        						
+                        <edomvds>Washington Department of Natural Resources</edomvds>
+                        					
+                    </edom>
+                    				
+                </attrdomv>
+                <attrdomv>
+                    					
+                    <edom>
+                        						
+                        <edomv>6</edomv>
+                        						
+                        <edomvd>Marine, intertidal, boulder, partially exposed, eulittoral</edomvd>
+                        						
+                        <edomvds>Washington Department of Natural Resources</edomvds>
+                        					
+                    </edom>
+                    				
+                </attrdomv>
+                <attrdomv>
+                    					
+                    <edom>
+                        						
+                        <edomv>7</edomv>
+                        						
+                        <edomvd>Marine, intertidal, boulder, semi-protected, eulittoral</edomvd>
+                        						
+                        <edomvds>Washington Department of Natural Resources</edomvds>
+                        					
+                    </edom>
+                    				
+                </attrdomv>
+                <attrdomv>
+                    					
+                    <edom>
+                        						
+                        <edomv>8</edomv>
+                        						
+                        <edomvd>Marine, intertidal, boulder, protected, eulittoral</edomvd>
+                        						
+                        <edomvds>Washington Department of Natural Resources</edomvds>
+                        					
+                    </edom>
+                    				
+                </attrdomv>
+                <attrdomv>
+                    					
+                    <edom>
+                        						
+                        <edomv>9</edomv>
+                        						
+                        <edomvd>Marine, intertidal, hardpan, exposed, eulittoral</edomvd>
+                        						
+                        <edomvds>Washington Department of Natural Resources</edomvds>
+                        					
+                    </edom>
+                    				
+                </attrdomv>
+                <attrdomv>
+                    					
+                    <edom>
+                        						
+                        <edomv>10</edomv>
+                        						
+                        <edomvd>Marine, intertidal, hardpan, partially exposed, eulittoral</edomvd>
+                        						
+                        <edomvds>Washington Department of Natural Resources</edomvds>
+                        					
+                    </edom>
+                    				
+                </attrdomv>
+                <attrdomv>
+                    					
+                    <edom>
+                        						
+                        <edomv>11</edomv>
+                        						
+                        <edomvd>Marine, intertidal, hardpan, semi-protected, eulittoral</edomvd>
+                        						
+                        <edomvds>Washington Department of Natural Resources</edomvds>
+                        					
+                    </edom>
+                    				
+                </attrdomv>
+                <attrdomv>
+                    					
+                    <edom>
+                        						
+                        <edomv>12</edomv>
+                        						
+                        <edomvd>Marine, intertidal, hardpan, protected, eulittoral</edomvd>
+                        						
+                        <edomvds>Washington Department of Natural Resources</edomvds>
+                        					
+                    </edom>
+                    				
+                </attrdomv>
+                <attrdomv>
+                    					
+                    <edom>
+                        						
+                        <edomv>13</edomv>
+                        						
+                        <edomvd>Marine, intertidal, cobble, exposed, eulittoral</edomvd>
+                        						
+                        <edomvds>Washington Department of Natural Resources</edomvds>
+                        					
+                    </edom>
+                    				
+                </attrdomv>
+                <attrdomv>
+                    					
+                    <edom>
+                        						
+                        <edomv>14</edomv>
+                        						
+                        <edomvd>Marine, intertidal, cobble, partially exposed, eulittoral</edomvd>
+                        						
+                        <edomvds>Washington Department of Natural Resources</edomvds>
+                        					
+                    </edom>
+                    				
+                </attrdomv>
+                <attrdomv>
+                    					
+                    <edom>
+                        						
+                        <edomv>15</edomv>
+                        						
+                        <edomvd>Marine, intertidal, cobble, semi-protected, eulittoral</edomvd>
+                        						
+                        <edomvds>Washington Department of Natural Resources</edomvds>
+                        					
+                    </edom>
+                    				
+                </attrdomv>
+                <attrdomv>
+                    					
+                    <edom>
+                        						
+                        <edomv>16</edomv>
+                        						
+                        <edomvd>Marine, intertidal, cobble, protected, eulittoral</edomvd>
+                        						
+                        <edomvds>Washington Department of Natural Resources</edomvds>
+                        					
+                    </edom>
+                    				
+                </attrdomv>
+                <attrdomv>
+                    					
+                    <edom>
+                        						
+                        <edomv>17</edomv>
+                        						
+                        <edomvd>Marine, intertidal, mixed coarse, exposed, eulittoral</edomvd>
+                        						
+                        <edomvds>Washington Department of Natural Resources</edomvds>
+                        					
+                    </edom>
+                    				
+                </attrdomv>
+                <attrdomv>
+                    					
+                    <edom>
+                        						
+                        <edomv>18</edomv>
+                        						
+                        <edomvd>Marine, intertidal, mixed coarse, partially exposed, eulittoral</edomvd>
+                        						
+                        <edomvds>Washington Department of Natural Resources</edomvds>
+                        					
+                    </edom>
+                    				
+                </attrdomv>
+                <attrdomv>
+                    					
+                    <edom>
+                        						
+                        <edomv>19</edomv>
+                        						
+                        <edomvd>Marine, intertidal, mixed coarse, semi-protected, eulittoral</edomvd>
+                        						
+                        <edomvds>Washington Department of Natural Resources</edomvds>
+                        					
+                    </edom>
+                    				
+                </attrdomv>
+                <attrdomv>
+                    					
+                    <edom>
+                        						
+                        <edomv>20</edomv>
+                        						
+                        <edomvd>Marine, intertidal, mixed coarse, protected, eulittoral</edomvd>
+                        						
+                        <edomvds>Washington Department of Natural Resources</edomvds>
+                        					
+                    </edom>
+                    				
+                </attrdomv>
+                <attrdomv>
+                    					
+                    <edom>
+                        						
+                        <edomv>21</edomv>
+                        						
+                        <edomvd>Marine, intertidal, gravel, exposed, eulittoral</edomvd>
+                        						
+                        <edomvds>Washington Department of Natural Resources</edomvds>
+                        					
+                    </edom>
+                    				
+                </attrdomv>
+                <attrdomv>
+                    					
+                    <edom>
+                        						
+                        <edomv>22</edomv>
+                        						
+                        <edomvd>Marine, intertidal, gravel, partially exposed, eulittoral</edomvd>
+                        						
+                        <edomvds>Washington Department of Natural Resources</edomvds>
+                        					
+                    </edom>
+                    				
+                </attrdomv>
+                <attrdomv>
+                    					
+                    <edom>
+                        						
+                        <edomv>23</edomv>
+                        						
+                        <edomvd>Marine, intertidal, gravel, semi-protected, eulttoral</edomvd>
+                        						
+                        <edomvds>Washington Department of Natural Resources</edomvds>
+                        					
+                    </edom>
+                    				
+                </attrdomv>
+                <attrdomv>
+                    					
+                    <edom>
+                        						
+                        <edomv>24</edomv>
+                        						
+                        <edomvd>Marine, intertidal, gravel, protected, eulittoral</edomvd>
+                        						
+                        <edomvds>Washington Department of Natural Resources</edomvds>
+                        					
+                    </edom>
+                    				
+                </attrdomv>
+                <attrdomv>
+                    					
+                    <edom>
+                        						
+                        <edomv>25</edomv>
+                        						
+                        <edomvd>Marine, intertidal, sand, exposed, eulittoral</edomvd>
+                        						
+                        <edomvds>Washington Department of Natural Resources</edomvds>
+                        					
+                    </edom>
+                    				
+                </attrdomv>
+                <attrdomv>
+                    					
+                    <edom>
+                        						
+                        <edomv>26</edomv>
+                        						
+                        <edomvd>Marine, intertidal, sand, partially exposed, eulittoral</edomvd>
+                        						
+                        <edomvds>Washington Department of Natural Resources</edomvds>
+                        					
+                    </edom>
+                    				
+                </attrdomv>
+                <attrdomv>
+                    					
+                    <edom>
+                        						
+                        <edomv>27</edomv>
+                        						
+                        <edomvd>Marine, intertidal, sand, semi-protected, eulittoral</edomvd>
+                        						
+                        <edomvds>Washington Department of Natural Resources</edomvds>
+                        					
+                    </edom>
+                    				
+                </attrdomv>
+                <attrdomv>
+                    					
+                    <edom>
+                        						
+                        <edomv>28</edomv>
+                        						
+                        <edomvd>Marine, intertidal, sand, protected, eulittoral</edomvd>
+                        						
+                        <edomvds>Washington Department of Natural Resources</edomvds>
+                        					
+                    </edom>
+                    				
+                </attrdomv>
+                <attrdomv>
+                    					
+                    <edom>
+                        						
+                        <edomv>29</edomv>
+                        						
+                        <edomvd>Marine, intertidal, mixed fine, exposed, eulittoral</edomvd>
+                        						
+                        <edomvds>Washington Department of Natural Resources</edomvds>
+                        					
+                    </edom>
+                    				
+                </attrdomv>
+                <attrdomv>
+                    					
+                    <edom>
+                        						
+                        <edomv>30</edomv>
+                        						
+                        <edomvd>Marine, intertidal, mixed fine, partially exposed, eulittoral</edomvd>
+                        						
+                        <edomvds>Washington Department of Natural Resources</edomvds>
+                        					
+                    </edom>
+                    				
+                </attrdomv>
+                <attrdomv>
+                    					
+                    <edom>
+                        						
+                        <edomv>31</edomv>
+                        						
+                        <edomvd>Marine, intertidal, mixed fine, semi-protected, eulittoral</edomvd>
+                        						
+                        <edomvds>Washington Department of Natural Resources</edomvds>
+                        					
+                    </edom>
+                    				
+                </attrdomv>
+                <attrdomv>
+                    					
+                    <edom>
+                        						
+                        <edomv>32</edomv>
+                        						
+                        <edomvd>Marine, intertidal, mixed fine, protected, eulittoral</edomvd>
+                        						
+                        <edomvds>Washington Department of Natural Resources</edomvds>
+                        					
+                    </edom>
+                    				
+                </attrdomv>
+                <attrdomv>
+                    					
+                    <edom>
+                        						
+                        <edomv>33</edomv>
+                        						
+                        <edomvd>Marine, intertidal, mud, exposed, eulittoral</edomvd>
+                        						
+                        <edomvds>Washington Department of Natural Resources</edomvds>
+                        					
+                    </edom>
+                    				
+                </attrdomv>
+                <attrdomv>
+                    					
+                    <edom>
+                        						
+                        <edomv>34</edomv>
+                        						
+                        <edomvd>Marine, intertidal, mud, partially exposed, eulittoral</edomvd>
+                        						
+                        <edomvds>Washington Department of Natural Resources</edomvds>
+                        					
+                    </edom>
+                    				
+                </attrdomv>
+                <attrdomv>
+                    					
+                    <edom>
+                        						
+                        <edomv>35</edomv>
+                        						
+                        <edomvd>Marine, intertidal, mud, semi-protected, eulittoral</edomvd>
+                        						
+                        <edomvds>Washington Department of Natural Resources</edomvds>
+                        					
+                    </edom>
+                    				
+                </attrdomv>
+                <attrdomv>
+                    					
+                    <edom>
+                        						
+                        <edomv>36</edomv>
+                        						
+                        <edomvd>Marine, intertidal, mud, protected, eulittoral</edomvd>
+                        						
+                        <edomvds>Washington Department of Natural Resources</edomvds>
+                        					
+                    </edom>
+                    				
+                </attrdomv>
+                <attrdomv>
+                    					
+                    <edom>
+                        						
+                        <edomv>37</edomv>
+                        						
+                        <edomvd>Marine, intertidal, organic, exposed, eulittoral</edomvd>
+                        						
+                        <edomvds>Washington Department of Natural Resources</edomvds>
+                        					
+                    </edom>
+                    				
+                </attrdomv>
+                <attrdomv>
+                    					
+                    <edom>
+                        						
+                        <edomv>38</edomv>
+                        						
+                        <edomvd>Marine, intertidal, organic, partially exposed, eulittoral</edomvd>
+                        						
+                        <edomvds>Washington Department of Natural Resources</edomvds>
+                        					
+                    </edom>
+                    				
+                </attrdomv>
+                <attrdomv>
+                    					
+                    <edom>
+                        						
+                        <edomv>39</edomv>
+                        						
+                        <edomvd>Marine, intertidal, organic, semi-protected, eulittoral</edomvd>
+                        						
+                        <edomvds>Washington Department of Natural Resources</edomvds>
+                        					
+                    </edom>
+                    				
+                </attrdomv>
+                <attrdomv>
+                    					
+                    <edom>
+                        						
+                        <edomv>40</edomv>
+                        						
+                        <edomvd>Marine, intertidal, organic, protected, eulittoral</edomvd>
+                        						
+                        <edomvds>Washington Department of Natural Resources</edomvds>
+                        					
+                    </edom>
+                    				
+                </attrdomv>
+                <attrdomv>
+                    					
+                    <edom>
+                        						
+                        <edomv>41</edomv>
+                        						
+                        <edomvd>Marine, intertidal, reef, exposed, eulittoral</edomvd>
+                        						
+                        <edomvds>Washington Department of Natural Resources</edomvds>
+                        					
+                    </edom>
+                    				
+                </attrdomv>
+                <attrdomv>
+                    					
+                    <edom>
+                        						
+                        <edomv>42</edomv>
+                        						
+                        <edomvd>Marine, intertidal, reef, partially exposed, eulittoral</edomvd>
+                        						
+                        <edomvds>Washington Department of Natural Resources</edomvds>
+                        					
+                    </edom>
+                    				
+                </attrdomv>
+                <attrdomv>
+                    					
+                    <edom>
+                        						
+                        <edomv>43</edomv>
+                        						
+                        <edomvd>Marine, intertidal, reef, semi-protected, eulittoral</edomvd>
+                        						
+                        <edomvds>Washington Department of Natural Resources</edomvds>
+                        					
+                    </edom>
+                    				
+                </attrdomv>
+                <attrdomv>
+                    					
+                    <edom>
+                        						
+                        <edomv>44</edomv>
+                        						
+                        <edomvd>Marine, intertidal, reef, protected, eulittoral</edomvd>
+                        						
+                        <edomvds>Washington Department of Natural Resources</edomvds>
+                        					
+                    </edom>
+                    				
+                </attrdomv>
+                <attrdomv>
+                    					
+                    <edom>
+                        						
+                        <edomv>45</edomv>
+                        						
+                        <edomvd>Marine, intertidal, artificial, exposed, eulittoral</edomvd>
+                        						
+                        <edomvds>Washington Department of Natural Resources</edomvds>
+                        					
+                    </edom>
+                    				
+                </attrdomv>
+                <attrdomv>
+                    					
+                    <edom>
+                        						
+                        <edomv>46</edomv>
+                        						
+                        <edomvd>Marine, intertidal, artificial, partially exposed, eulittoral</edomvd>
+                        						
+                        <edomvds>Washington Department of Natural Resources</edomvds>
+                        					
+                    </edom>
+                    				
+                </attrdomv>
+                <attrdomv>
+                    					
+                    <edom>
+                        						
+                        <edomv>47</edomv>
+                        						
+                        <edomvd>Marine, intertidal, artificial, semi-protected, eulittoral</edomvd>
+                        						
+                        <edomvds>Washington Department of Natural Resources</edomvds>
+                        					
+                    </edom>
+                    				
+                </attrdomv>
+                <attrdomv>
+                    					
+                    <edom>
+                        						
+                        <edomv>48</edomv>
+                        						
+                        <edomvd>Marine, intertidal, artificial, protected, eulittoral</edomvd>
+                        						
+                        <edomvds>Washington Department of Natural Resources</edomvds>
+                        					
+                    </edom>
+                    				
+                </attrdomv>
+                <attrdomv>
+                    					
+                    <edom>
+                        						
+                        <edomv>49</edomv>
+                        						
+                        <edomvd>Estuarine, intertidal, bedrock, open, eulittoral</edomvd>
+                        						
+                        <edomvds>Washington Department of Natural Resources</edomvds>
+                        					
+                    </edom>
+                    				
+                </attrdomv>
+                <attrdomv>
+                    					
+                    <edom>
+                        						
+                        <edomv>50</edomv>
+                        						
+                        <edomvd>Estuarine, intertidal, bedrock, partly enclosedeulittoral</edomvd>
+                        						
+                        <edomvds>Washington Department of Natural Resources</edomvds>
+                        					
+                    </edom>
+                    				
+                </attrdomv>
+                <attrdomv>
+                    					
+                    <edom>
+                        						
+                        <edomv>51</edomv>
+                        						
+                        <edomvd>Estuarine, intertidal, bedrock, lagoon, eulittoral</edomvd>
+                        						
+                        <edomvds>Washington Department of Natural Resources</edomvds>
+                        					
+                    </edom>
+                    				
+                </attrdomv>
+                <attrdomv>
+                    					
+                    <edom>
+                        						
+                        <edomv>52</edomv>
+                        						
+                        <edomvd>Estuarine, intertidal, bedrock, channel/slough, eulittoral</edomvd>
+                        						
+                        <edomvds>Washington Department of Natural Resources</edomvds>
+                        					
+                    </edom>
+                    				
+                </attrdomv>
+                <attrdomv>
+                    					
+                    <edom>
+                        						
+                        <edomv>53</edomv>
+                        						
+                        <edomvd>Estuarine, intertidal, boulder, open, eulittoral</edomvd>
+                        						
+                        <edomvds>Washington Department of Natural Resources</edomvds>
+                        					
+                    </edom>
+                    				
+                </attrdomv>
+                <attrdomv>
+                    					
+                    <edom>
+                        						
+                        <edomv>54</edomv>
+                        						
+                        <edomvd>Estuarine, intertidal, boulder, partly enclosed, eulittoral</edomvd>
+                        						
+                        <edomvds>Washington Department of Natural Resources</edomvds>
+                        					
+                    </edom>
+                    				
+                </attrdomv>
+                <attrdomv>
+                    					
+                    <edom>
+                        						
+                        <edomv>55</edomv>
+                        						
+                        <edomvd>Estuarine, intertidal, boulder, lagoon, eulittoral</edomvd>
+                        						
+                        <edomvds>Washington Department of Natural Resources</edomvds>
+                        					
+                    </edom>
+                    				
+                </attrdomv>
+                <attrdomv>
+                    					
+                    <edom>
+                        						
+                        <edomv>56</edomv>
+                        						
+                        <edomvd>Estuarine, intertidal, boulder, channel/slough, eulittoral</edomvd>
+                        						
+                        <edomvds>Washington Department of Natural Resources</edomvds>
+                        					
+                    </edom>
+                    				
+                </attrdomv>
+                <attrdomv>
+                    					
+                    <edom>
+                        						
+                        <edomv>57</edomv>
+                        						
+                        <edomvd>Estuarine, intertidal, hardpan, open, eulittoral</edomvd>
+                        						
+                        <edomvds>Washington Department of Natural Resources</edomvds>
+                        					
+                    </edom>
+                    				
+                </attrdomv>
+                <attrdomv>
+                    					
+                    <edom>
+                        						
+                        <edomv>58</edomv>
+                        						
+                        <edomvd>Estuarine, intertidal, hardpan, partly enclosed, eulittoral</edomvd>
+                        						
+                        <edomvds>Washington Department of Natural Resources</edomvds>
+                        					
+                    </edom>
+                    				
+                </attrdomv>
+                <attrdomv>
+                    					
+                    <edom>
+                        						
+                        <edomv>59</edomv>
+                        						
+                        <edomvd>Estuarine, intertidal, hardpan, lagoon, eulittoral</edomvd>
+                        						
+                        <edomvds>Washington Department of Natural Resources</edomvds>
+                        					
+                    </edom>
+                    				
+                </attrdomv>
+                <attrdomv>
+                    					
+                    <edom>
+                        						
+                        <edomv>60</edomv>
+                        						
+                        <edomvd>Estuarine, intertidal, hardpan, channel/slough, eulittoral</edomvd>
+                        						
+                        <edomvds>Washington Department of Natural Resources</edomvds>
+                        					
+                    </edom>
+                    				
+                </attrdomv>
+                <attrdomv>
+                    					
+                    <edom>
+                        						
+                        <edomv>61</edomv>
+                        						
+                        <edomvd>Estuarine, intertidal, cobble, open, eulittoral</edomvd>
+                        						
+                        <edomvds>Washington Department of Natural Resources</edomvds>
+                        					
+                    </edom>
+                    				
+                </attrdomv>
+                <attrdomv>
+                    					
+                    <edom>
+                        						
+                        <edomv>62</edomv>
+                        						
+                        <edomvd>Estuarine, intertidal, cobble, partly enclosed, eulittoral</edomvd>
+                        						
+                        <edomvds>Washington Department of Natural Resources</edomvds>
+                        					
+                    </edom>
+                    				
+                </attrdomv>
+                <attrdomv>
+                    					
+                    <edom>
+                        						
+                        <edomv>63</edomv>
+                        						
+                        <edomvd>Estuarine, intertidal, cobble, lagoon, eulittoral</edomvd>
+                        						
+                        <edomvds>Washington Department of Natural Resources</edomvds>
+                        					
+                    </edom>
+                    				
+                </attrdomv>
+                <attrdomv>
+                    					
+                    <edom>
+                        						
+                        <edomv>64</edomv>
+                        						
+                        <edomvd>Estuarine, intertidal, cobble, channel/slough, eulittoral</edomvd>
+                        						
+                        <edomvds>Washington Department of Natural Resources</edomvds>
+                        					
+                    </edom>
+                    				
+                </attrdomv>
+                <attrdomv>
+                    					
+                    <edom>
+                        						
+                        <edomv>65</edomv>
+                        						
+                        <edomvd>Estuarine, intertidal, mixed coarse, open, eulittoral</edomvd>
+                        						
+                        <edomvds>Washington Department of Natural Resources</edomvds>
+                        					
+                    </edom>
+                    				
+                </attrdomv>
+                <attrdomv>
+                    					
+                    <edom>
+                        						
+                        <edomv>66</edomv>
+                        						
+                        <edomvd>Estuarine, intertidal, mixed coarse, partly enclosed, eulittoral</edomvd>
+                        						
+                        <edomvds>Washington Department of Natural Resources</edomvds>
+                        					
+                    </edom>
+                    				
+                </attrdomv>
+                <attrdomv>
+                    					
+                    <edom>
+                        						
+                        <edomv>67</edomv>
+                        						
+                        <edomvd>Estuarine, intertidal, mixed coarse, lagoon, eulittoral</edomvd>
+                        						
+                        <edomvds>Washington Department of Natural Resources</edomvds>
+                        					
+                    </edom>
+                    				
+                </attrdomv>
+                <attrdomv>
+                    					
+                    <edom>
+                        						
+                        <edomv>68</edomv>
+                        						
+                        <edomvd>Estuarine, intertidal, mixed coarse, channel/slough, eulittoral</edomvd>
+                        						
+                        <edomvds>Washington Department of Natural Resources</edomvds>
+                        					
+                    </edom>
+                    				
+                </attrdomv>
+                <attrdomv>
+                    					
+                    <edom>
+                        						
+                        <edomv>69</edomv>
+                        						
+                        <edomvd>Estuarine, intertidal, gravel, open, eulittor</edomvd>
+                        						
+                        <edomvds>Washington Department of Natural Resources</edomvds>
+                        					
+                    </edom>
+                    				
+                </attrdomv>
+                <attrdomv>
+                    					
+                    <edom>
+                        						
+                        <edomv>70</edomv>
+                        						
+                        <edomvd>Estuarine, intertidal, gravel, partly enclosed, eulittoral</edomvd>
+                        						
+                        <edomvds>Washington Department of Natural Resources</edomvds>
+                        					
+                    </edom>
+                    				
+                </attrdomv>
+                <attrdomv>
+                    					
+                    <edom>
+                        						
+                        <edomv>71</edomv>
+                        						
+                        <edomvd>Estuarine, intertidal, gravel, lagoon, eulittoral</edomvd>
+                        						
+                        <edomvds>Washington Department of Natural Resources</edomvds>
+                        					
+                    </edom>
+                    				
+                </attrdomv>
+                <attrdomv>
+                    					
+                    <edom>
+                        						
+                        <edomv>72</edomv>
+                        						
+                        <edomvd>Estuarine, intertidal, gravel, channel/slough, eulittoral</edomvd>
+                        						
+                        <edomvds>Washington Department of Natural Resources</edomvds>
+                        					
+                    </edom>
+                    				
+                </attrdomv>
+                <attrdomv>
+                    					
+                    <edom>
+                        						
+                        <edomv>73</edomv>
+                        						
+                        <edomvd>Estuarine, intertidal, sand, open, eulittoral</edomvd>
+                        						
+                        <edomvds>Washington Department of Natural Resources</edomvds>
+                        					
+                    </edom>
+                    				
+                </attrdomv>
+                <attrdomv>
+                    					
+                    <edom>
+                        						
+                        <edomv>74</edomv>
+                        						
+                        <edomvd>Estuarine, intertidal, sand, partly enclosed, eulittoral</edomvd>
+                        						
+                        <edomvds>Washington Department of Natural Resources</edomvds>
+                        					
+                    </edom>
+                    				
+                </attrdomv>
+                <attrdomv>
+                    					
+                    <edom>
+                        						
+                        <edomv>75</edomv>
+                        						
+                        <edomvd>Estuarine, intertidal, sand, lagoon, eulittoral</edomvd>
+                        						
+                        <edomvds>Washington Department of Natural Resources</edomvds>
+                        					
+                    </edom>
+                    				
+                </attrdomv>
+                <attrdomv>
+                    					
+                    <edom>
+                        						
+                        <edomv>76</edomv>
+                        						
+                        <edomvd>Estuarine, intertidal, sand, channel/slough, eulittoral</edomvd>
+                        						
+                        <edomvds>Washington Department of Natural Resources</edomvds>
+                        					
+                    </edom>
+                    				
+                </attrdomv>
+                <attrdomv>
+                    					
+                    <edom>
+                        						
+                        <edomv>77</edomv>
+                        						
+                        <edomvd>Estuarine, intertidal, mixed fine, open, eulittoral</edomvd>
+                        						
+                        <edomvds>Washington Department of Natural Resources</edomvds>
+                        					
+                    </edom>
+                    				
+                </attrdomv>
+                <attrdomv>
+                    					
+                    <edom>
+                        						
+                        <edomv>78</edomv>
+                        						
+                        <edomvd>Estuarine, intertidal, mixed fine, partly enclosed, eulittoral</edomvd>
+                        						
+                        <edomvds>Washington Department of Natural Resources</edomvds>
+                        					
+                    </edom>
+                    				
+                </attrdomv>
+                <attrdomv>
+                    					
+                    <edom>
+                        						
+                        <edomv>79</edomv>
+                        						
+                        <edomvd>Estuarine, intertidal, mixed fine, lagoon, eulittoral</edomvd>
+                        						
+                        <edomvds>Washington Department of Natural Resources</edomvds>
+                        					
+                    </edom>
+                    				
+                </attrdomv>
+                <attrdomv>
+                    					
+                    <edom>
+                        						
+                        <edomv>80</edomv>
+                        						
+                        <edomvd>Estuarine, intertidal, mixed fine, channel/slough, eulittoral</edomvd>
+                        						
+                        <edomvds>Washington Department of Natural Resources</edomvds>
+                        					
+                    </edom>
+                    				
+                </attrdomv>
+                <attrdomv>
+                    					
+                    <edom>
+                        						
+                        <edomv>81</edomv>
+                        						
+                        <edomvd>Estuarine, intertidal, mud, open, eulittoral</edomvd>
+                        						
+                        <edomvds>Washington Department of Natural Resources</edomvds>
+                        					
+                    </edom>
+                    				
+                </attrdomv>
+                <attrdomv>
+                    					
+                    <edom>
+                        						
+                        <edomv>82</edomv>
+                        						
+                        <edomvd>Estuarine, intertidal, mud, partly enclosed, eulittoral</edomvd>
+                        						
+                        <edomvds>Washington Department of Natural Resources</edomvds>
+                        					
+                    </edom>
+                    				
+                </attrdomv>
+                <attrdomv>
+                    					
+                    <edom>
+                        						
+                        <edomv>83</edomv>
+                        						
+                        <edomvd>Estuarine, intertidal, mud, lagoon, eulittoral</edomvd>
+                        						
+                        <edomvds>Washington Department of Natural Resources</edomvds>
+                        					
+                    </edom>
+                    				
+                </attrdomv>
+                <attrdomv>
+                    					
+                    <edom>
+                        						
+                        <edomv>84</edomv>
+                        						
+                        <edomvd>Estuarine, intertidal, mud, channel/slough, eulittoral</edomvd>
+                        						
+                        <edomvds>Washington Department of Natural Resources</edomvds>
+                        					
+                    </edom>
+                    				
+                </attrdomv>
+                <attrdomv>
+                    					
+                    <edom>
+                        						
+                        <edomv>85</edomv>
+                        						
+                        <edomvd>Estuarine, intertidal, organic, open, eulittoral</edomvd>
+                        						
+                        <edomvds>Washington Department of Natural Resources</edomvds>
+                        					
+                    </edom>
+                    				
+                </attrdomv>
+                <attrdomv>
+                    					
+                    <edom>
+                        						
+                        <edomv>86</edomv>
+                        						
+                        <edomvd>Estuarine, intertidal, organic, partly enclosed, eulittoral</edomvd>
+                        						
+                        <edomvds>Washington Department of Natural Resources</edomvds>
+                        					
+                    </edom>
+                    				
+                </attrdomv>
+                <attrdomv>
+                    					
+                    <edom>
+                        						
+                        <edomv>87</edomv>
+                        						
+                        <edomvd>Estuarine, intertidal, organic, lagoon, eulittoral</edomvd>
+                        						
+                        <edomvds>Washington Department of Natural Resources</edomvds>
+                        					
+                    </edom>
+                    				
+                </attrdomv>
+                <attrdomv>
+                    					
+                    <edom>
+                        						
+                        <edomv>88</edomv>
+                        						
+                        <edomvd>Estuarine, intertidal, organic, channel/slough, eulittoral</edomvd>
+                        						
+                        <edomvds>Washington Department of Natural Resources</edomvds>
+                        					
+                    </edom>
+                    				
+                </attrdomv>
+                <attrdomv>
+                    					
+                    <edom>
+                        						
+                        <edomv>89</edomv>
+                        						
+                        <edomvd>Estuarine, intertidal, reef, open, eulittoral</edomvd>
+                        						
+                        <edomvds>Washington Department of Natural Resources</edomvds>
+                        					
+                    </edom>
+                    				
+                </attrdomv>
+                <attrdomv>
+                    					
+                    <edom>
+                        						
+                        <edomv>90</edomv>
+                        						
+                        <edomvd>Estuarine, intertidal, reef, partly enclosed, eulittoral</edomvd>
+                        						
+                        <edomvds>Washington Department of Natural Resources</edomvds>
+                        					
+                    </edom>
+                    				
+                </attrdomv>
+                <attrdomv>
+                    					
+                    <edom>
+                        						
+                        <edomv>91</edomv>
+                        						
+                        <edomvd>Estuarine, intertidal, reef, lagoon, eulittoral</edomvd>
+                        						
+                        <edomvds>Washington Department of Natural Resources</edomvds>
+                        					
+                    </edom>
+                    				
+                </attrdomv>
+                <attrdomv>
+                    					
+                    <edom>
+                        						
+                        <edomv>92</edomv>
+                        						
+                        <edomvd>Estuarine, intertidal, reef, channel/slough, eulittoral</edomvd>
+                        						
+                        <edomvds>Washington Department of Natural Resources</edomvds>
+                        					
+                    </edom>
+                    				
+                </attrdomv>
+                <attrdomv>
+                    					
+                    <edom>
+                        						
+                        <edomv>93</edomv>
+                        						
+                        <edomvd>Estuarine, intertidal, artificial, open, eulittoral</edomvd>
+                        						
+                        <edomvds>Washington Department of Natural Resources</edomvds>
+                        					
+                    </edom>
+                    				
+                </attrdomv>
+                <attrdomv>
+                    					
+                    <edom>
+                        						
+                        <edomv>94</edomv>
+                        						
+                        <edomvd>Estuarine, intertidal, artificial, partly enclosed, eulittoral</edomvd>
+                        						
+                        <edomvds>Washington Department of Natural Resources</edomvds>
+                        					
+                    </edom>
+                    				
+                </attrdomv>
+                <attrdomv>
+                    					
+                    <edom>
+                        						
+                        <edomv>95</edomv>
+                        						
+                        <edomvd>Estuarine, intertidal, artificial, lagoon, eulittoral</edomvd>
+                        						
+                        <edomvds>Washington Department of Natural Resources</edomvds>
+                        					
+                    </edom>
+                    				
+                </attrdomv>
+                <attrdomv>
+                    					
+                    <edom>
+                        						
+                        <edomv>96</edomv>
+                        						
+                        <edomvd>Estuarine, intertidal, artificial, channel/slough, eulittoral</edomvd>
+                        						
+                        <edomvds>Washington Department of Natural Resources</edomvds>
+                        					
+                    </edom>
+                    				
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>DETH_TXT</attrlabl>
+                <attrdef>Text description for shoreline type according to A Marine and Estuarine Classification System for Washington State (Dethier 1990)</attrdef>
+                <attrdefs>Washington Department of Natural Resources</attrdefs>
+                <attrdomv>
+                    					
+                    <udom>Text descriptions</udom>
+                    				
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>NRDA_CLASS</attrlabl>
+                <attrdef>Numeric code for the Natural Resource Damage Assessment (NRDA) shoreline classification system</attrdef>
+                <attrdefs>Washington Department of Natural Resources</attrdefs>
+                <attrdomv>
+                    					
+                    <edom>
+                        						
+                        <edomv>1</edomv>
+                        						
+                        <edomvd>exposed and semi-exposed rock shores (marine)</edomvd>
+                        						
+                        <edomvds>Washington Department of Natural Resources</edomvds>
+                        					
+                    </edom>
+                    				
+                </attrdomv>
+                <attrdomv>
+                    					
+                    <edom>
+                        						
+                        <edomv>2</edomv>
+                        						
+                        <edomvd>sand-scoured rocky shores (marine)</edomvd>
+                        						
+                        <edomvds>Washington Department of Natural Resources</edomvds>
+                        					
+                    </edom>
+                    				
+                </attrdomv>
+                <attrdomv>
+                    					
+                    <edom>
+                        						
+                        <edomv>3</edomv>
+                        						
+                        <edomvd>protected rocky shores (marine)</edomvd>
+                        						
+                        <edomvds>Washington Department of Natural Resources</edomvds>
+                        					
+                    </edom>
+                    				
+                </attrdomv>
+                <attrdomv>
+                    					
+                    <edom>
+                        						
+                        <edomv>4</edomv>
+                        						
+                        <edomvd>semi-exposed cobble and mixed coarse beaches (marine)</edomvd>
+                        						
+                        <edomvds>Washington Department of Natural Resources</edomvds>
+                        					
+                    </edom>
+                    				
+                </attrdomv>
+                <attrdomv>
+                    					
+                    <edom>
+                        						
+                        <edomv>5</edomv>
+                        						
+                        <edomvd>semi-exposed gravel beaches (marine)</edomvd>
+                        						
+                        <edomvds>Washington Department of Natural Resources</edomvds>
+                        					
+                    </edom>
+                    				
+                </attrdomv>
+                <attrdomv>
+                    					
+                    <edom>
+                        						
+                        <edomv>6</edomv>
+                        						
+                        <edomvd>exposed sandy beaches (marine)</edomvd>
+                        						
+                        <edomvds>Washington Department of Natural Resources</edomvds>
+                        					
+                    </edom>
+                    				
+                </attrdomv>
+                <attrdomv>
+                    					
+                    <edom>
+                        						
+                        <edomv>7</edomv>
+                        						
+                        <edomvd>semi-protected mixed-fine beaches (marine)</edomvd>
+                        						
+                        <edomvds>Washington Department of Natural Resources</edomvds>
+                        					
+                    </edom>
+                    				
+                </attrdomv>
+                <attrdomv>
+                    					
+                    <edom>
+                        						
+                        <edomv>8</edomv>
+                        						
+                        <edomvd>protected mud flats (marine)</edomvd>
+                        						
+                        <edomvds>Washington Department of Natural Resources</edomvds>
+                        					
+                    </edom>
+                    				
+                </attrdomv>
+                <attrdomv>
+                    					
+                    <edom>
+                        						
+                        <edomv>9</edomv>
+                        						
+                        <edomvd>open rocky shores (estuarine)</edomvd>
+                        						
+                        <edomvds>Washington Department of Natural Resources</edomvds>
+                        					
+                    </edom>
+                    				
+                </attrdomv>
+                <attrdomv>
+                    					
+                    <edom>
+                        						
+                        <edomv>10</edomv>
+                        						
+                        <edomvd>open mixed coarse beaches (estuarine)</edomvd>
+                        						
+                        <edomvds>Washington Department of Natural Resources</edomvds>
+                        					
+                    </edom>
+                    				
+                </attrdomv>
+                <attrdomv>
+                    					
+                    <edom>
+                        						
+                        <edomv>11</edomv>
+                        						
+                        <edomvd>open sandy beaches (estuarine)</edomvd>
+                        						
+                        <edomvds>Washington Department of Natural Resources</edomvds>
+                        					
+                    </edom>
+                    				
+                </attrdomv>
+                <attrdomv>
+                    					
+                    <edom>
+                        						
+                        <edomv>14</edomv>
+                        						
+                        <edomvd>saline lagoons (estuarine)</edomvd>
+                        						
+                        <edomvds>Washington Department of Natural Resources</edomvds>
+                        					
+                    </edom>
+                    				
+                </attrdomv>
+                <attrdomv>
+                    					
+                    <edom>
+                        						
+                        <edomv>15</edomv>
+                        						
+                        <edomvd>low-salinity lagoons (estuarine)</edomvd>
+                        						
+                        <edomvds>Washington Department of Natural Resources</edomvds>
+                        					
+                    </edom>
+                    				
+                </attrdomv>
+                <attrdomv>
+                    					
+                    <edom>
+                        						
+                        <edomv>16</edomv>
+                        						
+                        <edomvd>mud flats (estuarine)</edomvd>
+                        						
+                        <edomvds>Washington Department of Natural Resources</edomvds>
+                        					
+                    </edom>
+                    				
+                </attrdomv>
+                <attrdomv>
+                    					
+                    <edom>
+                        						
+                        <edomv>99</edomv>
+                        						
+                        <edomvd>unclassified</edomvd>
+                        						
+                        <edomvds>Washington Department of Natural Resources</edomvds>
+                        					
+                    </edom>
+                    				
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>NRDA_TXT</attrlabl>
+                <attrdef>Text description for the Natural Resource Damage Assessment (NRDA) shoreline classification system</attrdef>
+                <attrdefs>Washington Department of Natural Resources</attrdefs>
+                <attrdomv>
+                    					
+                    <udom>Text descriptions</udom>
+                    				
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>Shape_Length</attrlabl>
+                <attrdef>Length of feature in internal units.</attrdef>
+                <attrdefs>Esri</attrdefs>
+                <attrdomv>
+                    					
+                    <udom>Positive real numbers that are automatically generated.</udom>
+                    				
+                </attrdomv>
+            </attr>
+        </detailed>
+    </eainfo>
+    <distinfo>
+        <distrib>
+            <cntinfo>
+                <cntorgp>
+                    <cntorg>Washington Dept of Natural Resouces / Aquatic Resources Div. / Nearshore Habitat Program</cntorg>
+                </cntorgp>
+                <cntaddr>
+                    <addrtype>mailing</addrtype>
+                    <address>P.O. Box 47027</address>
+                    <city>Olympia</city>
+                    <state>WA</state>
+                    <postal>98504-7027</postal>
+                    <country>US</country>
+                </cntaddr>
+                <cntvoice>360-902-1100</cntvoice>
+                <cntfax>3609021786</cntfax>
+                <cntemail>nearshore@dnr.wa.gov</cntemail>
+            </cntinfo>
+        </distrib>
+        <distliab>The Washington State Department of Natural Resources (DNR) provides these geographic data "as is." DNR makes no guarantee or warranty concerning the accuracy of information contained in the geographic data. DNR further makes no warranties, either expressed or implied as to any other matter whatsoever, including, without limitation, the condition of the product, or its fitness for any particular purpose. The burden for determining fitness for use lies entirely with the user. Although these data have been processed successfully on computers of DNR, no warranty, expressed or implied, is made by DNR regarding the use of these data on any other system, nor does the fact of distribution constitute or imply any such warranty.
+In no event shall the DNR have any liability whatsoever for payment of any consequential, incidental, indirect, special, or tort damages of any kind, including, but not limited to, any loss of profits arising out of use of or reliance on the geographic data or arising out of the delivery, installation, operation, or support by DNR.</distliab>
+        <stdorder>
+            <digform>
+                <digtinfo>
+                    <formname>Esri File Geodatabase</formname>
+                    <formvern>Esri File Geodatabase 10.4</formvern>
+                </digtinfo>
+                <digtopt>
+                    <onlinopt>
+                        <computer>
+                            <networka>
+                                <networkr>http://www.dnr.wa.gov/GISOpenData</networkr>
+                            </networka>
+                        </computer>
+                    </onlinopt>
+                </digtopt>
+            </digform>
+            <fees>none</fees>
+            <ordering>Download from http://www.dnr.wa.gov/GISOpenData</ordering>
+        </stdorder>
+    </distinfo>
+    <metainfo>
+        <metd>20170603</metd>
+        <metc>
+            <cntinfo>
+                <cntorgp>
+                    <cntorg>Washington Dept of Natural Resouces / Aquatic Resources Div. / Nearshore Habitat Program</cntorg>
+                </cntorgp>
+                <cntaddr>
+                    <addrtype>mailing</addrtype>
+                    <address>P.O. Box 47027</address>
+                    <city>Olympia</city>
+                    <state>WA</state>
+                    <postal>98504-7027</postal>
+                    <country>US</country>
+                </cntaddr>
+                <cntvoice>360-902-1100</cntvoice>
+                <cntemail>nearshore@dnr.wa.gov</cntemail>
+            </cntinfo>
+        </metc>
+        <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+        <metstdv>FGDC-STD-001-1998</metstdv>
+        <mettc>local time</mettc>
+    </metainfo>
+</metadata>
